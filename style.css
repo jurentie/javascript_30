@@ -40,3 +40,12 @@ a:hover {
     font-size: 22px;
     color:black;
 }
+
+.wb {
+    text-decoration: underline;
+    transition: none;
+}
+
+.wb:hover{
+    font-size:20px;
+}
