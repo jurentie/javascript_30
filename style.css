@@ -1,0 +1,42 @@
+html {
+    font-size: 20px;
+    background: url('./background.jpg') bottom center;
+    background-size: cover;
+}
+
+body,html {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    height:100vh;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.container {
+    width: 80%;
+    margin:20px;
+    background-color: rgba(57,70,103, 0.8);
+    border-radius: 10px;
+}
+
+hr {
+    border:0;
+    border-top: 2px solid white;
+    width:80%;
+    margin-bottom: 50px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    transition: all .5s ease;
+}
+
+a:hover {
+    font-size: 22px;
+    color:black;
+}
